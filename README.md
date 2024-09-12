@@ -12,4 +12,14 @@ The **Micro Quiz API** is a microservices-based application developed with Sprin
 - **Service Discovery**: Utilizes a registry service for dynamic service discovery.
 - **OpenFeign Integration**: Seamless inter-service communication using OpenFeign.
 
+## Dependencies used
+
+- **Spring Boot**: Core framework for building microservices.
+- **Spring Data JPA**: For data persistence and database interaction.
+- **OpenFeign**:  For simplified inter-service communication.
+- **Eureka Discovery Client**: A REST based service for locating services for the purpose of load balancing and failover of middle-tier servers.
+- **Spring Cloud Gateway**:  For API Gateway functionality and routing.
+- **Eureka Server**:  For the registry service funcitonality, i.e. to register all microservices.
+
+
 
